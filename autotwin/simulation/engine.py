@@ -4,7 +4,6 @@ from pathlib import Path
 import random
 from ..core.models import TelemetryRecord
 from ..sensors.sensor_suite import SensorSuite
-
 class SimulationEngine:
     def __init__(self, vehicle, world, sensors, fusion, adas, scenario_name="custom", seed=42):
         self.vehicle = vehicle
