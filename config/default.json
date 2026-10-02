@@ -1,0 +1,24 @@
+{
+  "vehicle": {
+    "mass_kg": 1650,
+    "max_speed_kmh": 180,
+    "max_acceleration_ms2": 4.0,
+    "wheelbase_m": 2.7,
+    "battery_capacity_kwh": 62.0,
+    "initial_soc": 0.82
+  },
+  "sensors": {
+    "camera_range_m": 100.0,
+    "radar_range_m": 160.0,
+    "ultrasonic_range_m": 8.0,
+    "noise_std": 0.03
+  },
+  "adas": {
+    "fcw_ttc_s": 3.0,
+    "aeb_ttc_s": 1.5,
+    "acc_target_speed_kmh": 90,
+    "acc_follow_distance_m": 35,
+    "ldw_threshold_m": 0.45,
+    "bsd_range_m": 12
+  }
+}
